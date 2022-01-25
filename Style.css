@@ -43,11 +43,27 @@ img.title-logo {
 }
 
 .donuts-lineup img {
-    width: 50%;
+    width: 20%;
+}
+
+.container1 {
+    width: 30px;
+    margin:0 20px 0 auto;
+}
+
+.container2 {
+    width: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
 }
 
 ul {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;  
 }
 
 /* ---ナビゲーションボタン--- */
@@ -77,9 +93,4 @@ ul {
 .nav-button::before {
     transform: translateY(-10px);
     box-shadow: 0 10px currentColor;
-}
-
-.container {
-    width: 30px;
-    margin:0 20px 0 auto;
 }
