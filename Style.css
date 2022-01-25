@@ -37,13 +37,15 @@ img.title-logo {
 /* ---lineup--- */
 .wrapper {
     background-image: url(./image/wall-base.jpg);
+    width: auto;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .donuts-lineup img {
-    width: 20%;
+    width: 130px;
+    margin: 0 40px;
 }
 
 .container1 {
@@ -52,7 +54,7 @@ img.title-logo {
 }
 
 .container2 {
-    width: auto;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -93,4 +95,21 @@ ul {
 .nav-button::before {
     transform: translateY(-10px);
     box-shadow: 0 10px currentColor;
+}
+
+/* ---LINEUP フッター--- */
+footer {
+    background-image: url(./image/wall-base.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer ul {
+    margin: 0;
+}
+footer p {
+    margin: 0 10px;
+    color: #000;
 }
