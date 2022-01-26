@@ -11,6 +11,7 @@ p {
     display: inline-block;
     color: #ffffff;
 }
+
 img {
     display: block;
 }
@@ -124,6 +125,7 @@ footer ul {
     margin: 0;
 }
 footer p {
+    text-align: right;
     margin: 0 10px;
     color: #000;
 }
