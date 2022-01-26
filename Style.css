@@ -58,8 +58,10 @@ header {
 /* ---index--- */
 
 div.main-visual {
+    width: auto;
     height: 1300px;
     background-image: url(./image/wall4.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
