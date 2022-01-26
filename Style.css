@@ -97,10 +97,11 @@ h1 {
 
 ul {
     display: flex;
-    width: 70%;
+    width: 800px;
     flex-flow: row wrap;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 /* ---LINEUP フッター--- */
