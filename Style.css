@@ -1,5 +1,7 @@
 * {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -72,7 +74,7 @@ img.title-logo {
 .wrapper {
     background-image: url(./image/wall-base.jpg);
     width: auto;
-    height: 100vh;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -92,11 +94,12 @@ img.title-logo {
     margin: 0 auto;
 }
 
-h1 {
+h1 img {
+    padding-top: 20px;
     margin: 0 auto;
 }
 
-ul {
+ul.donuts-lineup {
     display: flex;
     width: 650px;
     flex-flow: row wrap;
@@ -105,10 +108,14 @@ ul {
     margin: 0 auto;
 }
 
+.main-conteiner {
+    padding: 50px 0;
+}
+
 /*---LINEUP(ipad以下)---*/
 @media(max-width:768px) {
-    ul {
-    width: 200px;
+    ul.donuts-lineup {
+    width: 100px;
     }
 }
 
@@ -125,7 +132,12 @@ footer ul {
     margin: 0;
 }
 footer p {
-    text-align: right;
     margin: 0 10px;
     color: #000;
+}
+footer ul {
+    width: 500px;
+    display: flex;
+    margin-right: 10px;
+    margin-left: auto;
 }
