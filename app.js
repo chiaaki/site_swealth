@@ -1,7 +1,3 @@
-let navLineupImg = document.getElementById("nav-lineup");
-console.log(navLineupImg);
-navLineupImg.src = "./image/nav-lineup.png";
-
 // let time;
 // function interval() {
 //     for(let i = 0; i <= ".donuts-lineup img".length; i++) {
