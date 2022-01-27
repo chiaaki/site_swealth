@@ -61,7 +61,7 @@ header {
 /* ---index--- */
 
 div.main-visual {
-    height: 1300px;
+    height: auto;
     background-image: url(./image/wall4.jpg);
     background-repeat: no-repeat;
 }
@@ -74,9 +74,9 @@ img.title-logo {
 .wrapper {
     background-image: url(./image/wall-base.jpg);
     width: auto;
-    height: auto;
+    height: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .donuts-lineup img {
