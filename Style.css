@@ -162,11 +162,8 @@ ul.donuts-lineup {
 
 /* ---LINEUP フッター--- */
 footer {
-    background-image: url(./image/wall-base.jpg);
     margin: 0;
     padding: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 footer ul {
