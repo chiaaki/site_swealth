@@ -2,6 +2,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: 1px solid #000;
 }
 
 body {
@@ -58,7 +59,7 @@ header {
     background-position: center;
 }
 
-/* ---index--- */
+/* ------index------ */
 
 div.main-visual {
     height: auto;
@@ -70,17 +71,17 @@ img.title-logo {
     padding: 300px 0 0 0;
 }
 
-/* ---lineup--- */
+/* ------lineup------ */
 .wrapper {
     background-image: url(./image/wall-base.jpg);
     width: auto;
-    height: 100%;
+    height: 100vh;
     background-size: cover;
     background-repeat: repeat;
 }
 
 .donuts-lineup img {
-    width: 130px;
+    width: 200px;
     margin: 0 40px;
 }
 
@@ -101,19 +102,27 @@ h1 img {
 
 ul.donuts-lineup {
     display: flex;
-    width: 650px;
+    width: 850px;
     flex-flow: row wrap;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    align-items: center;
 }
 
 .main-conteiner {
     padding: 50px 0;
 }
+/* footer li {
+    margin-top: 280px;
+} */
 
 /*---LINEUP(ipad以下)---*/
-@media(max-width:768px) {
+@media(max-width:850px) {
+    .wrapper {
+        height: 100%;
+    }
+
     ul.donuts-lineup {
     width: 100px;
     }
