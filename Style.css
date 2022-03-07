@@ -2,7 +2,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 body {
@@ -61,9 +61,10 @@ header {
 
 /* ------index------ */
 
-div.main-visual {
-    height: auto;
+.hero {
+    height: 2600px;
     background-image: url(./image/wall4.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -71,8 +72,28 @@ img.title-logo {
     padding: 300px 0 0 0;
 }
 
+.content {
+    margin: 0 200px;
+}
+
+.hero-contents2 {
+    padding-top: 800px;
+}
+.hero-contents2 p {
+    padding-top: 100px;
+}
+
+.btn {
+    padding-top: 1000px;
+}
+
+img.nav-lineup,
+img.more-btn {
+    margin: 0 auto;
+}
+
 /* ------lineup------ */
-.wrapper {
+.wrapper2 {
     background-image: url(./image/wall-base.jpg);
     width: auto;
     height: 100vh;
