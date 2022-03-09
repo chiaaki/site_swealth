@@ -103,18 +103,14 @@ img.more-btn {
     margin-left: 1em;
 }
 
-.hero-contents2 {
+.content {
     position: relative;
 }
 
 .main2 {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    right: 250;
     width: 360px;
-    height: auto;
     margin: auto;
 }
 
@@ -140,6 +136,10 @@ img.more-btn {
 
 .main3 {
     color: #141313;
+}
+
+.recipe-photo {
+    border: solid 1px #000;
 }
 
 /* ------------lineup------------ */
