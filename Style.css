@@ -14,7 +14,6 @@ body {
 }
 
 p {
-    display: inline-block;
     color: #ffffff;
 }
 
@@ -22,7 +21,7 @@ img {
     display: block;
 }
 
-/* ---ナビゲーションボタン--- */
+/* ---------ナビゲーションボタン--------- */
 .nav-button {
     box-sizing: content-box;
     padding: 0;
@@ -51,7 +50,7 @@ img {
     box-shadow: 0 10px currentColor;
 }
 
-/* ---ヘッダー--- */
+/* ---------ヘッダー--------- */
 
 header {
     background-color: brown;
@@ -62,7 +61,7 @@ header {
     background-position: center;
 }
 
-/* ------index------ */
+/* ------------index------------ */
 
 .hero {
     height: 2600px;
@@ -90,7 +89,7 @@ img.title-logo {
 }
 
 .btn {
-    padding-top: 900px;
+    padding-top: 1000px;
 }
 
 img.nav-lineup,
@@ -111,6 +110,8 @@ img.more-btn {
 .main2 {
     position: absolute;
     right: 250;
+    width: 360px;
+    margin: auto;
 }
 
 .hero1 {
@@ -120,12 +121,14 @@ img.more-btn {
 
 .story {
     background-image: url(./image/wall-topstory.png);
+    height: 1300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .recipe {
     background-image: url(./image/wall-toprecipe.png);
+    height: 1300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -134,7 +137,7 @@ img.more-btn {
     color: #141313;
 }
 
-/* ------lineup------ */
+/* ------------lineup------------ */
 .wrapper2 {
     background-image: url(./image/wall-base.jpg);
     width: auto;
@@ -180,7 +183,7 @@ ul.donuts-lineup {
     margin-top: 280px;
 } */
 
-/*---LINEUP(ipad以下)---*/
+/*---------LINEUP(ipad以下)---------*/
 @media(max-width:850px) {
     .wrapper {
         height: 100%;
@@ -232,7 +235,7 @@ ul.donuts-lineup {
 
 }
 
-/* ---LINEUP フッター--- */
+/* ---------LINEUP フッター--------- */
 footer {
     margin: 0;
     padding: 0;
