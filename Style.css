@@ -79,6 +79,7 @@ img.title-logo {
 
 .content {
     margin: 0 200px;
+    position: relative;
 }
 
 .hero-contents2 {
@@ -103,14 +104,14 @@ img.more-btn {
     margin-left: 1em;
 }
 
-.content {
-    position: relative;
-}
-
 .main2 {
     position: absolute;
-    right: 250;
-    width: 360px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 200px;
+    width: 500px;
     margin: auto;
 }
 
@@ -140,6 +141,8 @@ img.more-btn {
 
 .recipe-photo {
     border: solid 1px #000;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
 /* ------------lineup------------ */
