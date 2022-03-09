@@ -103,14 +103,18 @@ img.more-btn {
     margin-left: 1em;
 }
 
-.hero-contents2 h2 {
+.hero-contents2 {
     position: relative;
 }
 
 .main2 {
     position: absolute;
-    right: 250;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     width: 360px;
+    height: auto;
     margin: auto;
 }
 
@@ -121,6 +125,7 @@ img.more-btn {
 
 .story {
     background-image: url(./image/wall-topstory.png);
+    width: auto;
     height: 1300px;
     background-repeat: no-repeat;
     background-size: cover;
