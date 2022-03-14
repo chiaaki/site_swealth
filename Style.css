@@ -95,8 +95,10 @@ img.title-logo {
 } */
 
 .btn {
-    bottom: 120%;
-    position: absolute;
+    /* bottom: 120%;
+    position: absolute; */
+    display: flex;
+    align-items: flex-end;
 }
 
 img.nav-lineup,
