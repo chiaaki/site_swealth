@@ -22,7 +22,7 @@ img {
 }
 
 /* ---------ナビゲーションボタン--------- */
-.nav-button {
+/* .nav-button {
     box-sizing: content-box;
     padding: 0;
     outline: none;
@@ -48,7 +48,7 @@ img {
 .nav-button::before {
     transform: translateY(-10px);
     box-shadow: 0 10px currentColor;
-}
+} */
 
 /* ---------ヘッダー--------- */
 
@@ -82,9 +82,31 @@ img.title-logo {
     margin-left: auto;
 }
 
+.content1 {
+    margin: 0 10vw;
+    height: 100vh;
+}
+
 .content {
     margin: 0 10vw;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.flex-content1 {
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    flex-flow: row-reverse
+}
+
+.flex-content2 {
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
 }
 
 /* .hero-contents2 {
@@ -97,8 +119,6 @@ img.title-logo {
 .btn {
     /* bottom: 120%;
     position: absolute; */
-    display: flex;
-    align-items: flex-end;
 }
 
 img.nav-lineup,
@@ -108,24 +128,28 @@ img.more-btn {
     margin: 0 auto;
 }
 
+img.more-btn {
+
+    margin-bottom: 20px;
+}
+
 .main1 {
     margin-left: 1em;
-    width: 500px;
+    width: 550px;
 }
 
 .main2 {
     color: #000000;
-    margin-right: 5vw;
-    height: 200px;
-    width: 500px;
-    position: absolute;
-    right: 0;
-    left:10vw;
-    top: 0;
-    bottom: 0;
-    margin: auto auto;
+    /* height: 200px; */
+    width: 1300px;
+    margin: auto;
    
 } 
+
+.photo-lineup {
+    position: relative;
+    width: 100vw;
+}
 
 .photo-lineup1 {
     width: 500px;
@@ -134,7 +158,8 @@ img.more-btn {
     background-color: #ffffff;
     transform: rotate( -10deg );
     position: absolute;
-    top: 200px;
+    top: 42px;
+    left: -3px;
 
 }
 .photo-lineup2 {
@@ -144,8 +169,8 @@ img.more-btn {
     background-color: #ffffff;
     transform: rotate( 5deg );
     position: absolute;
-    top: 457px;
-    left: 122px;
+    top: 310px;
+    left: 88px;
 }
 
 .main3 {
@@ -154,25 +179,28 @@ img.more-btn {
 
 .main4 {
     color: #141313;
-    width: 500px;
+    width: 550px;
 }
 
 .story {
     background-image: url(./image/wall-topstory.png);
     width: auto;
-    height: 1300px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .recipe {
     background-image: url(./image/wall-toprecipe.png);
-    height: 1300px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .photo-recipe {
+    width: 500px;
+    object-fit: cover;
+    height: auto;
     border: solid 1px #000;
     padding: 20px;
     background-color: #ffffff;
