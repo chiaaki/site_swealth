@@ -192,7 +192,7 @@ img.more-btn {
 
 .main4 {
     color: #141313;
-    width: 550px;
+    width: auto;
 }
 
 .h3 {
@@ -227,11 +227,42 @@ img.more-btn {
 }
 
 @media(max-width:999px) {
+    .hero-contents1 {
+        background-position: right;
+    }
+    .content1 h1,
+    .main1 {
+        z-index: 20;
+        position: relative;
+    }
+
+    .bg {
+        position: relative;
+        background-color: #000;
+        opacity: 0.5;
+        z-index: 10;
+    }
+
+    .flex-content1 {
+        display: flex;
+        height: 80%;
+        justify-content: space-around;
+        flex-flow: row-reverse;
+        flex-direction: column;
+    }
+    
     .flex-content2 {
         display: flex;
         height: 80%;
         justify-content: space-around;
         align-items: center;
+        flex-direction: column;
+    }
+
+    .main2,
+    .main3,
+    .main4 {
+        margin: 0 auto;
     }
 }
 
