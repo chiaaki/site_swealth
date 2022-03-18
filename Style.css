@@ -199,7 +199,7 @@ img.more-btn {
     font-size: 40px;
     width: auto;
     color: #912255;
-    margin: 0 0 0 auto;
+    margin: 0 auto 0 0;
 }
 .story {
     background-image: url(./image/wall-topstory.png);
@@ -244,19 +244,22 @@ img.more-btn {
     }
 
     .flex-content1 {
-        display: flex;
+        display: block;
+        /* display: flex;
         height: 80%;
         justify-content: space-around;
         flex-flow: row-reverse;
         flex-direction: column;
+        align-items: center; */
     }
     
     .flex-content2 {
-        display: flex;
+        display: block;
+        /* display: flex;
         height: 80%;
         justify-content: space-around;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column; */
     }
 
     .main2,
@@ -264,6 +267,24 @@ img.more-btn {
     .main4 {
         margin: 0 auto;
     }
+
+    .photo-lineup,
+    .photo-lineup1,
+    .photo-lineup2,
+    .photo-lineup3 {
+        position: static;
+    }
+
+    .photo-lineup2,
+    .photo-lineup3 {
+        display: none;
+    }
+
+    .photo-lineup1 {
+        width: 500px;
+        margin: 0 auto;
+    }
+    
 }
 
 /* ------------lineup------------ */
